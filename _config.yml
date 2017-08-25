@@ -9,11 +9,11 @@ description: |
 owner: Luca Severini # or company name
 first_published: 2017 # if migrating another site, the year of your first publish
 email: luca@severini.org
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/luca-severini" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 markdown: redcarpet
 exclude: ['README.md']
-permalink: pretty
+permalink: 
 social:
   #twitter:
   email: luca[at]severini.org <Luca Severini>

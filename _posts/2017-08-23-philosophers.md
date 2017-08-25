@@ -5,7 +5,7 @@ description: Philosophers have expertise to interpreter the role of Knowledge En
 tags: knowledge-representation knowledge-society ontology philosophy semantic-web
 ---
 
-![Companies]({{ site.url }}/images/post/companies.jpg){:width="800px"}
+![Companies]({{ site.baseurl }}/images/post/companies.jpg){:width="800px"}
 
 As far as the knowledge of a company grows, also difficulty in accessing
 and effectively use it increases.
@@ -57,7 +57,7 @@ only gives answers, but also helps to formulate questions, since he
 knows things and knows when they are needed. That is also the reason why
 we say “a philosopher in every organization”.
 
-![Logics]({{ site.url }}/images/post/logics.jpg){:width="620px"}
+![Logics]({{ site.baseurl }}/images/post/logics.jpg){:width="620px"}
 
 The philosopher will not be the company sage. S/he will help you to
 build your own wisdom management system. That will be your sage! It will
