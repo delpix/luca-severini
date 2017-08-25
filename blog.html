@@ -1,0 +1,27 @@
+---
+layout: page
+title: Blog
+description: A collection of posts about activities and experiences of Luca Severini
+---
+
+	<h2>Index</h2>
+	
+	<div class="inner">
+	<ul class="label">
+		{% for my_post in site.posts %}
+		{% if my_post.title %}
+		<li class="alt">
+			{{ my_post.date | date_to_string }} -
+			<a href="{{ my_post.url | prepend: site.baseurl }}">
+			<b>{{ my_post.title }}</b></a> -
+			{{ my_post.description }}</em>
+			{% for tag in my_post.tags %}
+			{% if tag %}
+			<code>{{ tag }}</code>
+			{% endif %}
+			{% endfor %}
+		</li>
+
+		{% endif %}
+		{% endfor %}
+  </ul>

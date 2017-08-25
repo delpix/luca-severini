@@ -1,0 +1,25 @@
+<!-- Footer -->
+<footer id="footer">
+
+<ul class="copyright">
+  <li><b><i class="fa fa-lg fa-creative-commons"></i> {% assign thisyear = site.time | date: "%Y" %}
+  {% if site.first_published %}
+    {% capture diff %}{{ site.first_published | minus:thisyear }}{% endcapture %}
+    {% if diff contains '-' %}{{ site.first_published }},{% endif %}
+  {% endif %}
+  {{ thisyear }}
+  {% if site.owner %}{{ site.owner }}{% else %}{{ site.title }}{% endif %}</b></li>
+</ul>
+
+<ul class="copyright">
+  <li>Creative Commons License: <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="0">CC BY-NC-SA 3.0</a> </li>
+  <li>Data Protection: This website does not use <a href="https://tools.ietf.org/html/rfc6265" target="0">cookies</a></li>
+</ul>
+
+  <ul class="copyright">
+    <li>Hosting: <a href="https://pages.github.com/" target="_blank">GitHub Pages</a></li>
+    <li>Built with: <a href="http://jekyllrb.com" target="_blank">Jekyll</a></li>
+    <li>Theme: Spectral by <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
+  </ul>
+
+</footer>

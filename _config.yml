@@ -1,0 +1,61 @@
+# Welcome to Jekyll!
+#
+
+# Site settings
+title: Luca Severini
+description: |
+    Business Models for the Digital Age
+
+owner: Luca Severini # or company name
+first_published: 2017 # if migrating another site, the year of your first publish
+email: luca@severini.org
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+markdown: redcarpet
+exclude: ['README.md']
+permalink: pretty
+social:
+  #twitter:
+  email: luca[at]severini.org <Luca Severini>
+  github: https://github.com/delpix
+  angellist: https://angel.co/luca-severini-2
+  linkedin-square: https://linkedin.com/in/lucaseverini
+  #facebook-official:
+  #google-plus-square:
+  #flickr:
+  #instagram:
+  #youtube-square:
+  #spotify:
+  #stack-overflow:
+  #vimeo:
+  #reddit:
+  #stubleupon:
+  #delicious:
+  #pied-piper:
+  #digg:
+  #soundcloud:
+  #deviantart:
+  #tumblr-square:
+  #stackexchange:
+  #weibo:
+  #trello:
+  #foursquare:
+  #linux:
+  #bitbucket-square:
+  #vk:
+  #slack:
+  #vine:
+  #weixin:
+  #yelp:
+  #skyatlas:
+  #leanpub:
+  #connectdevelop:
+  #ils:
+  #forumbee:
+  #tripadvisor:
+  #amazon:
+
+# Build settings
+markdown: kramdown
+#sass:
+#  style: compressed
