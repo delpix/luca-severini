@@ -1,2 +1,2 @@
-# http://luca.severini.org
+# luca.severini.org
 Website of Luca Severini
