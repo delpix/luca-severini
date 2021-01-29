@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: main
 title: Blog
 description: A collection of posts about activities and experiences of Luca Severini
 ---
@@ -7,10 +7,10 @@ description: A collection of posts about activities and experiences of Luca Seve
 	<h2>Index</h2>
 	
 	<div class="inner">
-	<ul class="label">
+	<ul class="alt">
 		{% for my_post in site.posts %}
 		{% if my_post.title %}
-		<li class="alt">
+		<li>
 			{{ my_post.date | date_to_string }} -
 			<a href="{{ my_post.url | prepend: site.baseurl }}">
 			<b>{{ my_post.title }}</b></a> -
@@ -24,4 +24,7 @@ description: A collection of posts about activities and experiences of Luca Seve
 
 		{% endif %}
 		{% endfor %}
-  </ul>
+    </ul>
+
+  	</div>
+

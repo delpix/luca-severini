@@ -4,7 +4,7 @@
 # Site settings
 title: Luca Severini
 description: |
-    Business Modeller for the Digital Age
+  Skills for the Digital Age
 
 owner: Luca Severini # or company name
 first_published: 2017 # if migrating another site, the year of your first publish
@@ -17,9 +17,10 @@ permalink:
 social:
   #twitter:
   email: luca[at]severini.org <Luca Severini>
+  linkedin-square: https://linkedin.com/in/lucaseverini
   github: https://github.com/delpix
   angellist: https://angel.co/luca-severini-2
-  linkedin-square: https://linkedin.com/in/lucaseverini
+  medium: https://delpix.medium.com/ 
   #facebook-official:
   #google-plus-square:
   #flickr:
