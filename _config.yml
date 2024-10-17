@@ -1,17 +1,14 @@
 # Welcome to Jekyll!
 #
-
 # Site settings
-title: Luca Severini
-description: |
-  Skills for the Digital Age
-
+title: Luca Severini 
+description: Skills for the Digital Age 
 owner: Luca Severini # or company name
 first_published: 2017 # if migrating another site, the year of your first publish
-email: luca@severini.org
+email: luca@severini.org 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://luca.severini.org" # the base hostname & protocol for your site
-markdown: redcarpet
+markdown: redcarpet 
 exclude: ['README.md']
 permalink: 
 social:
